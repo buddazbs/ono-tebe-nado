@@ -59,7 +59,8 @@
 .cover {
     position: relative;
     padding: 55px 50px 50px 50px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../images/cover.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                      url(./../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -159,7 +160,6 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     list-style: none;
-    
 }
 
 .lots__card_list_item {
@@ -183,19 +183,22 @@
 }
 
 .card_type_film {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../images/card-lot-01.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                      url(./../images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card_type_book {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../images/card-lot-02.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url(./../images/card-lot-02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card_type_picture {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../images/card-lot-03.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url(./../images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
