@@ -48,8 +48,7 @@
     position: relative;
     padding: 165px 50px 50px 50px;
     color: white;
-    background-image: url(../images/cover.jpg);
-    background-size: cover;
+    background: url(../images/cover.jpg) no-repeat center / cover;
     z-index: 1;
 }
 .overley {
