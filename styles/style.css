@@ -84,6 +84,7 @@
 }
 .no__letter_spacing {
     letter-spacing: 0;
+    text-transform: uppercase;
 }
 .cover__description {
     margin-top: 135px;
